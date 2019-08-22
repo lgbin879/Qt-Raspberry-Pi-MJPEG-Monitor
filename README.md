@@ -13,8 +13,8 @@ cd Qt-Raspberry-Pi-MJPEG-Monitor
 
 To fully use this Qt project, you need to install ffmpeg on your ubuntu, and install mjpg-steamer on your raspberry pi.
 
-1. start mjpg_streamer:
-pi@raspberrypi:~/Software/mjpg-streamer-master $ ./mjpg_streamer -i "input_uvc.so -d /dev/video0 " -o "output_http.so -w ./www -p 8090"
+1. start mjpg_streamer on Raspberry PI:
+./mjpg_streamer -i "input_uvc.so -d /dev/video0 " -o "output_http.so -w ./www -p 8090"
 
 2. open rpiMjpegMonitor on Ubuntu, config your raspberrypi ip and port: 8090, click connect button:
 
