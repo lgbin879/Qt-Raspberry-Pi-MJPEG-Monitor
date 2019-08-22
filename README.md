@@ -24,8 +24,10 @@ To fully use this Qt project, you need to install ffmpeg on your ubuntu, and ins
 TODO:
 1. layout auto scale
 2. open model image.
-3. to do AI hunman face identification compare with model image.
+3. AI hunman face identification compare with model image.
 4. openCV, tensorflow.
+5. add progress bar for snap/record button.
+6. double click image label, open new window full view.
 
 if you have any question, send email to "guibinli AT gmail.com"
 
