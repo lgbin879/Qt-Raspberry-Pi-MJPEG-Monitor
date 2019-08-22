@@ -5,6 +5,7 @@ Test enviroment: Ubuntu16.04 + Raspberry PI 3, Qt version 5.10.1
 How to build in Ubuntu:
 
 git clone git@github.com:lgbin879/Qt-Raspberry-Pi-MJPEG-Monitor.git
+
 cd Qt-Raspberry-Pi-MJPEG-Monitor
 
 1. qmake
@@ -15,7 +16,7 @@ To fully use this Qt project, you need to install ffmpeg on your ubuntu, and ins
 1. start mjpg_streamer:
 pi@raspberrypi:~/Software/mjpg-streamer-master $ ./mjpg_streamer -i "input_uvc.so -d /dev/video0 " -o "output_http.so -w ./www -p 8090"
 
-2. open rpiMjpegMonitor, config your raspberrypi ip and port: 8090, click connect button:
+2. open rpiMjpegMonitor on Ubuntu, config your raspberrypi ip and port: 8090, click connect button:
 
 3. you can click snap button to snap picture immediatlly, or click record button to save video in mp4 format, delete button to remove snap pictures.
 
