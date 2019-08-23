@@ -28,6 +28,7 @@ TODO:
 4. openCV, tensorflow.
 5. add progress bar for snap/record button.
 6. double click image label, open new window full view.
+7. integrate audio to monitor software.
 
 if you have any question, send email to "guibinli AT gmail.com"
 
